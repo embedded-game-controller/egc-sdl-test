@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="1">
+  <name>EGC controller test</name>
+  <coder>Alberto Mardegan</coder>
+  <version>VERSION</version>
+  <release_date>20260411152132</release_date>
+  <short_description>Visualize controllers in a 3D scene</short_description>
+  <long_description>This is a test program for the embedded-game-controller-library.
+  </long_description>
+</app>
