@@ -22,8 +22,7 @@ void start_draw_Start()
     glVertex3f(-0.004734, 0.003708, -0.00014);
     glNormal3f(0.2276, 0.9738, -0.0);
     glVertex3f(-0.004734, 0.003708, 0.003748);
-    glEnd();
-    glBegin(GL_QUADS);
+
     glNormal3f(0.2276, -0.9738, -0.0);
     glVertex3f(-0.004734, -0.003708, 0.003748);
     glNormal3f(0.2276, -0.9738, -0.0);
@@ -32,8 +31,7 @@ void start_draw_Start()
     glVertex3f(0.004734, -0.001495, -0.00014);
     glNormal3f(0.2276, -0.9738, -0.0);
     glVertex3f(0.004734, -0.001495, 0.003748);
-    glEnd();
-    glBegin(GL_QUADS);
+
     glNormal3f(-0.0, -0.0, 1.0);
     glVertex3f(0.004718, 0.0009, 0.004331);
     glNormal3f(-0.0, -0.0, 1.0);
@@ -42,8 +40,7 @@ void start_draw_Start()
     glVertex3f(-0.004718, -0.003106, 0.004331);
     glNormal3f(-0.0, -0.0, 1.0);
     glVertex3f(0.004718, -0.0009, 0.004331);
-    glEnd();
-    glBegin(GL_QUADS);
+
     glNormal3f(-1.0, -0.0, -0.0);
     glVertex3f(-0.005301, 0.003258, 0.003748);
     glNormal3f(-1.0, -0.0, -0.0);
@@ -52,8 +49,7 @@ void start_draw_Start()
     glVertex3f(-0.005301, -0.003258, -0.00014);
     glNormal3f(-1.0, -0.0, -0.0);
     glVertex3f(-0.005301, -0.003258, 0.003748);
-    glEnd();
-    glBegin(GL_QUADS);
+
     glNormal3f(0.9031, 0.2884, 0.3181);
     glVertex3f(0.005301, 0.000779, 0.003748);
     glNormal3f(0.9031, 0.2884, 0.3181);
@@ -62,8 +58,7 @@ void start_draw_Start()
     glVertex3f(0.005058, 0.00117, 0.004085);
     glNormal3f(0.9031, 0.2884, 0.3181);
     glVertex3f(0.005128, 0.000812, 0.004161);
-    glEnd();
-    glBegin(GL_QUADS);
+
     glNormal3f(0.387, 0.307, 0.8695);
     glVertex3f(0.004718, 0.0009, 0.004331);
     glNormal3f(0.387, 0.307, 0.8695);
@@ -72,8 +67,7 @@ void start_draw_Start()
     glVertex3f(0.005058, 0.00117, 0.004085);
     glNormal3f(0.387, 0.307, 0.8695);
     glVertex3f(0.004726, 0.001318, 0.004161);
-    glEnd();
-    glBegin(GL_QUADS);
+
     glNormal3f(0.4864, 0.8137, 0.3181);
     glVertex3f(0.004734, 0.001495, 0.003748);
     glNormal3f(0.4864, 0.8137, 0.3181);
@@ -82,8 +76,7 @@ void start_draw_Start()
     glVertex3f(0.005058, 0.00117, 0.004085);
     glNormal3f(0.4864, 0.8137, 0.3181);
     glVertex3f(0.005138, 0.001233, 0.003748);
-    glEnd();
-    glBegin(GL_QUADS);
+
     glNormal3f(-0.1204, 0.9246, 0.3615);
     glVertex3f(-0.004734, 0.003708, 0.003748);
     glNormal3f(-0.1204, 0.9246, 0.3615);
@@ -92,8 +85,7 @@ void start_draw_Start()
     glVertex3f(-0.005058, 0.003534, 0.004085);
     glNormal3f(-0.1204, 0.9246, 0.3615);
     glVertex3f(-0.004726, 0.003528, 0.004161);
-    glEnd();
-    glBegin(GL_QUADS);
+
     glNormal3f(-0.2553, 0.3219, 0.9117);
     glVertex3f(-0.004718, 0.003106, 0.004331);
     glNormal3f(-0.2553, 0.3219, 0.9117);
@@ -102,8 +94,7 @@ void start_draw_Start()
     glVertex3f(-0.005058, 0.003534, 0.004085);
     glNormal3f(-0.2553, 0.3219, 0.9117);
     glVertex3f(-0.005128, 0.003209, 0.004161);
-    glEnd();
-    glBegin(GL_QUADS);
+
     glNormal3f(-0.8729, 0.3277, 0.3615);
     glVertex3f(-0.005301, 0.003258, 0.003748);
     glNormal3f(-0.8729, 0.3277, 0.3615);
@@ -112,8 +103,7 @@ void start_draw_Start()
     glVertex3f(-0.005058, 0.003534, 0.004085);
     glNormal3f(-0.8729, 0.3277, 0.3615);
     glVertex3f(-0.005138, 0.003635, 0.003748);
-    glEnd();
-    glBegin(GL_QUADS);
+
     glNormal3f(0.9031, -0.2884, 0.3181);
     glVertex3f(0.005301, -0.000779, 0.003748);
     glNormal3f(0.9031, -0.2884, 0.3181);
@@ -122,8 +112,7 @@ void start_draw_Start()
     glVertex3f(0.005058, -0.00117, 0.004085);
     glNormal3f(0.9031, -0.2884, 0.3181);
     glVertex3f(0.005138, -0.001233, 0.003748);
-    glEnd();
-    glBegin(GL_QUADS);
+
     glNormal3f(0.4864, -0.8137, 0.3181);
     glVertex3f(0.004734, -0.001495, 0.003748);
     glNormal3f(0.4864, -0.8137, 0.3181);
@@ -132,8 +121,7 @@ void start_draw_Start()
     glVertex3f(0.005058, -0.00117, 0.004085);
     glNormal3f(0.4864, -0.8137, 0.3181);
     glVertex3f(0.004726, -0.001318, 0.004161);
-    glEnd();
-    glBegin(GL_QUADS);
+
     glNormal3f(0.387, -0.307, 0.8695);
     glVertex3f(0.004718, -0.0009, 0.004331);
     glNormal3f(0.387, -0.307, 0.8695);
@@ -142,8 +130,7 @@ void start_draw_Start()
     glVertex3f(0.005058, -0.00117, 0.004085);
     glNormal3f(0.387, -0.307, 0.8695);
     glVertex3f(0.005128, -0.000812, 0.004161);
-    glEnd();
-    glBegin(GL_QUADS);
+
     glNormal3f(-0.8729, -0.3277, 0.3615);
     glVertex3f(-0.005301, -0.003258, 0.003748);
     glNormal3f(-0.8729, -0.3277, 0.3615);
@@ -152,8 +139,7 @@ void start_draw_Start()
     glVertex3f(-0.005058, -0.003534, 0.004085);
     glNormal3f(-0.8729, -0.3277, 0.3615);
     glVertex3f(-0.005128, -0.003209, 0.004161);
-    glEnd();
-    glBegin(GL_QUADS);
+
     glNormal3f(-0.2553, -0.3219, 0.9117);
     glVertex3f(-0.004718, -0.003106, 0.004331);
     glNormal3f(-0.2553, -0.3219, 0.9117);
@@ -162,8 +148,7 @@ void start_draw_Start()
     glVertex3f(-0.005058, -0.003534, 0.004085);
     glNormal3f(-0.2553, -0.3219, 0.9117);
     glVertex3f(-0.004726, -0.003528, 0.004161);
-    glEnd();
-    glBegin(GL_QUADS);
+
     glNormal3f(-0.1204, -0.9246, 0.3615);
     glVertex3f(-0.004734, -0.003708, 0.003748);
     glNormal3f(-0.1204, -0.9246, 0.3615);
@@ -172,8 +157,7 @@ void start_draw_Start()
     glVertex3f(-0.005058, -0.003534, 0.004085);
     glNormal3f(-0.1204, -0.9246, 0.3615);
     glVertex3f(-0.005138, -0.003635, 0.003748);
-    glEnd();
-    glBegin(GL_QUADS);
+
     glNormal3f(0.3852, -0.0, 0.9228);
     glVertex3f(0.004718, -0.0009, 0.004331);
     glNormal3f(0.3852, -0.0, 0.9228);
@@ -182,8 +166,7 @@ void start_draw_Start()
     glVertex3f(0.005128, 0.000812, 0.004161);
     glNormal3f(0.3852, -0.0, 0.9228);
     glVertex3f(0.004718, 0.0009, 0.004331);
-    glEnd();
-    glBegin(GL_QUADS);
+
     glNormal3f(0.9214, -0.0, 0.3887);
     glVertex3f(0.005128, -0.000812, 0.004161);
     glNormal3f(0.9214, -0.0, 0.3887);
@@ -192,8 +175,7 @@ void start_draw_Start()
     glVertex3f(0.005301, 0.000779, 0.003748);
     glNormal3f(0.9214, -0.0, 0.3887);
     glVertex3f(0.005128, 0.000812, 0.004161);
-    glEnd();
-    glBegin(GL_QUADS);
+
     glNormal3f(0.0877, 0.3751, 0.9228);
     glVertex3f(0.004718, 0.0009, 0.004331);
     glNormal3f(0.0877, 0.3751, 0.9228);
@@ -202,8 +184,7 @@ void start_draw_Start()
     glVertex3f(-0.004726, 0.003528, 0.004161);
     glNormal3f(0.0877, 0.3751, 0.9228);
     glVertex3f(-0.004718, 0.003106, 0.004331);
-    glEnd();
-    glBegin(GL_QUADS);
+
     glNormal3f(0.2097, 0.8972, 0.3887);
     glVertex3f(0.004726, 0.001318, 0.004161);
     glNormal3f(0.2097, 0.8972, 0.3887);
@@ -212,8 +193,7 @@ void start_draw_Start()
     glVertex3f(-0.004734, 0.003708, 0.003748);
     glNormal3f(0.2097, 0.8972, 0.3887);
     glVertex3f(-0.004726, 0.003528, 0.004161);
-    glEnd();
-    glBegin(GL_QUADS);
+
     glNormal3f(-0.3852, -0.0, 0.9228);
     glVertex3f(-0.004718, 0.003106, 0.004331);
     glNormal3f(-0.3852, -0.0, 0.9228);
@@ -222,8 +202,7 @@ void start_draw_Start()
     glVertex3f(-0.005128, -0.003209, 0.004161);
     glNormal3f(-0.3852, -0.0, 0.9228);
     glVertex3f(-0.004718, -0.003106, 0.004331);
-    glEnd();
-    glBegin(GL_QUADS);
+
     glNormal3f(-0.9214, -0.0, 0.3887);
     glVertex3f(-0.005128, 0.003209, 0.004161);
     glNormal3f(-0.9214, -0.0, 0.3887);
@@ -232,8 +211,7 @@ void start_draw_Start()
     glVertex3f(-0.005301, -0.003258, 0.003748);
     glNormal3f(-0.9214, -0.0, 0.3887);
     glVertex3f(-0.005128, -0.003209, 0.004161);
-    glEnd();
-    glBegin(GL_QUADS);
+
     glNormal3f(0.0877, -0.3751, 0.9228);
     glVertex3f(-0.004718, -0.003106, 0.004331);
     glNormal3f(0.0877, -0.3751, 0.9228);
@@ -242,8 +220,7 @@ void start_draw_Start()
     glVertex3f(0.004726, -0.001318, 0.004161);
     glNormal3f(0.0877, -0.3751, 0.9228);
     glVertex3f(0.004718, -0.0009, 0.004331);
-    glEnd();
-    glBegin(GL_QUADS);
+
     glNormal3f(0.2097, -0.8972, 0.3887);
     glVertex3f(-0.004726, -0.003528, 0.004161);
     glNormal3f(0.2097, -0.8972, 0.3887);
@@ -252,8 +229,7 @@ void start_draw_Start()
     glVertex3f(0.004734, -0.001495, 0.003748);
     glNormal3f(0.2097, -0.8972, 0.3887);
     glVertex3f(0.004726, -0.001318, 0.004161);
-    glEnd();
-    glBegin(GL_QUADS);
+
     glNormal3f(-0.1828, -0.9832, -0.0006);
     glVertex3f(-0.004734, -0.003708, 0.003748);
     glNormal3f(-0.1828, -0.9832, -0.0006);
@@ -262,8 +238,7 @@ void start_draw_Start()
     glVertex3f(-0.005135, -0.003631, -0.00014);
     glNormal3f(-0.1828, -0.9832, -0.0006);
     glVertex3f(-0.004734, -0.003708, -0.00014);
-    glEnd();
-    glBegin(GL_QUADS);
+
     glNormal3f(-0.9157, -0.4018, -0.0006);
     glVertex3f(-0.005138, -0.003635, 0.003748);
     glNormal3f(-0.9157, -0.4018, -0.0006);
@@ -272,8 +247,7 @@ void start_draw_Start()
     glVertex3f(-0.005301, -0.003258, -0.00014);
     glNormal3f(-0.9157, -0.4018, -0.0006);
     glVertex3f(-0.005135, -0.003631, -0.00014);
-    glEnd();
-    glBegin(GL_QUADS);
+
     glNormal3f(-0.1828, 0.9832, -0.0006);
     glVertex3f(-0.004734, 0.003708, -0.00014);
     glNormal3f(-0.1828, 0.9832, -0.0006);
@@ -282,8 +256,7 @@ void start_draw_Start()
     glVertex3f(-0.005138, 0.003635, 0.003748);
     glNormal3f(-0.1828, 0.9832, -0.0006);
     glVertex3f(-0.004734, 0.003708, 0.003748);
-    glEnd();
-    glBegin(GL_QUADS);
+
     glNormal3f(-0.9157, 0.4018, -0.0006);
     glVertex3f(-0.005135, 0.003631, -0.00014);
     glNormal3f(-0.9157, 0.4018, -0.0006);
@@ -292,8 +265,7 @@ void start_draw_Start()
     glVertex3f(-0.005301, 0.003258, 0.003748);
     glNormal3f(-0.9157, 0.4018, -0.0006);
     glVertex3f(-0.005138, 0.003635, 0.003748);
-    glEnd();
-    glBegin(GL_QUADS);
+
     glNormal3f(0.547, 0.8371, -0.0005);
     glVertex3f(0.004734, 0.001495, 0.003748);
     glNormal3f(0.547, 0.8371, -0.0005);
@@ -302,8 +274,7 @@ void start_draw_Start()
     glVertex3f(0.005135, 0.001231, -0.00014);
     glNormal3f(0.547, 0.8371, -0.0005);
     glVertex3f(0.004734, 0.001495, -0.00014);
-    glEnd();
-    glBegin(GL_QUADS);
+
     glNormal3f(0.9397, 0.3421, -0.0005);
     glVertex3f(0.005138, 0.001233, 0.003748);
     glNormal3f(0.9397, 0.3421, -0.0005);
@@ -312,8 +283,7 @@ void start_draw_Start()
     glVertex3f(0.005301, 0.000779, -0.00014);
     glNormal3f(0.9397, 0.3421, -0.0005);
     glVertex3f(0.005135, 0.001231, -0.00014);
-    glEnd();
-    glBegin(GL_QUADS);
+
     glNormal3f(0.547, -0.8371, -0.0005);
     glVertex3f(0.004734, -0.001495, -0.00014);
     glNormal3f(0.547, -0.8371, -0.0005);
@@ -322,8 +292,7 @@ void start_draw_Start()
     glVertex3f(0.005138, -0.001233, 0.003748);
     glNormal3f(0.547, -0.8371, -0.0005);
     glVertex3f(0.004734, -0.001495, 0.003748);
-    glEnd();
-    glBegin(GL_QUADS);
+
     glNormal3f(0.9397, -0.3421, -0.0005);
     glVertex3f(0.005135, -0.001231, -0.00014);
     glNormal3f(0.9397, -0.3421, -0.0005);
@@ -332,8 +301,7 @@ void start_draw_Start()
     glVertex3f(0.005301, -0.000779, 0.003748);
     glNormal3f(0.9397, -0.3421, -0.0005);
     glVertex3f(0.005138, -0.001233, 0.003748);
-    glEnd();
-    glBegin(GL_QUADS);
+
     glNormal3f(1.0, -0.0, -0.0);
     glVertex3f(0.005301, -0.000779, 0.003748);
     glNormal3f(1.0, -0.0, -0.0);

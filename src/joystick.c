@@ -20,832 +20,728 @@ void joystick_draw_joystick()
     glVertex3f(0.005885, -0.00176, 0.023992);
     glNormal3f(0.026, 0.3272, 0.9446);
     glVertex3f(-0.000626, -0.006259, 0.023995);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(-0.3166, 0.0937, 0.9439);
     glVertex3f(0.005885, -0.00176, 0.023992);
     glNormal3f(-0.2703, -0.1684, 0.9479);
     glVertex3f(0.005259, 0.003108, 0.023991);
     glNormal3f(-0.075, -0.3059, 0.9491);
     glVertex3f(0.001221, 0.006075, 0.024033);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(0.1663, -0.2549, 0.9526);
     glVertex3f(-0.003417, 0.00515, 0.024015);
     glNormal3f(-0.3166, 0.0937, 0.9439);
     glVertex3f(0.005885, -0.00176, 0.023992);
     glNormal3f(-0.075, -0.3059, 0.9491);
     glVertex3f(0.001221, 0.006075, 0.024033);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(-0.3166, 0.0937, 0.9439);
     glVertex3f(0.005885, -0.00176, 0.023992);
     glNormal3f(0.1663, -0.2549, 0.9526);
     glVertex3f(-0.003417, 0.00515, 0.024015);
     glNormal3f(0.4243, -0.0977, 0.9003);
     glVertex3f(-0.00587, 0.002249, 0.023946);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(0.2393, 0.2939, 0.9254);
     glVertex3f(-0.004551, -0.004383, 0.023979);
     glNormal3f(0.4243, -0.0977, 0.9003);
     glVertex3f(-0.00587, 0.002249, 0.023946);
     glNormal3f(0.3964, 0.0859, 0.9141);
     glVertex3f(-0.006312, -0.000819, 0.024112);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(-0.1452, -0.227, 0.963);
     glVertex3f(-0.007406, -0.01125, 0.009965);
     glNormal3f(-0.0374, -0.272, 0.9616);
     glVertex3f(-0.001925, -0.013266, 0.009975);
     glNormal3f(-0.1674, -0.7132, 0.6807);
     glVertex3f(-0.001454, -0.004897, 0.01236);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(-0.1674, -0.7132, 0.6807);
     glVertex3f(-0.001454, -0.004897, 0.01236);
     glNormal3f(0.0664, -0.2549, 0.9647);
     glVertex3f(0.003364, -0.012863, 0.009988);
     glNormal3f(0.5228, -0.4978, 0.692);
     glVertex3f(0.003558, -0.003228, 0.012374);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(0.0664, -0.2549, 0.9647);
     glVertex3f(0.003364, -0.012863, 0.009988);
     glNormal3f(-0.1674, -0.7132, 0.6807);
     glVertex3f(-0.001454, -0.004897, 0.01236);
     glNormal3f(-0.0374, -0.272, 0.9616);
     glVertex3f(-0.001925, -0.013266, 0.009975);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(0.1433, -0.2244, 0.9639);
     glVertex3f(0.007216, -0.011126, 0.009992);
     glNormal3f(0.2136, -0.1694, 0.9621);
     glVertex3f(0.010183, -0.008424, 0.009988);
     glNormal3f(0.5228, -0.4978, 0.692);
     glVertex3f(0.003558, -0.003228, 0.012374);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(0.1433, -0.2244, 0.9639);
     glVertex3f(0.007216, -0.011126, 0.009992);
     glNormal3f(0.5228, -0.4978, 0.692);
     glVertex3f(0.003558, -0.003228, 0.012374);
     glNormal3f(0.0664, -0.2549, 0.9647);
     glVertex3f(0.003364, -0.012863, 0.009988);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(0.2136, -0.1694, 0.9621);
     glVertex3f(0.010183, -0.008424, 0.009988);
     glNormal3f(0.2523, -0.0866, 0.9638);
     glVertex3f(0.012375, -0.004636, 0.009976);
     glNormal3f(0.5228, -0.4978, 0.692);
     glVertex3f(0.003558, -0.003228, 0.012374);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(0.7302, 0.0092, 0.6832);
     glVertex3f(0.004778, 0.000189, 0.012279);
     glNormal3f(0.5228, -0.4978, 0.692);
     glVertex3f(0.003558, -0.003228, 0.012374);
     glNormal3f(0.2523, -0.0866, 0.9638);
     glVertex3f(0.012375, -0.004636, 0.009976);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(0.2658, 0.0058, 0.964);
     glVertex3f(0.013139, 0.000306, 0.009989);
     glNormal3f(0.7302, 0.0092, 0.6832);
     glVertex3f(0.004778, 0.000189, 0.012279);
     glNormal3f(0.2523, -0.0866, 0.9638);
     glVertex3f(0.012375, -0.004636, 0.009976);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(0.2658, 0.0058, 0.964);
     glVertex3f(0.013139, 0.000306, 0.009989);
     glNormal3f(0.2542, 0.1069, 0.9612);
     glVertex3f(0.012126, 0.005185, 0.009972);
     glNormal3f(0.582, 0.5573, 0.5922);
     glVertex3f(0.003467, 0.00287, 0.01252);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(0.7302, 0.0092, 0.6832);
     glVertex3f(0.004778, 0.000189, 0.012279);
     glNormal3f(0.2658, 0.0058, 0.964);
     glVertex3f(0.013139, 0.000306, 0.009989);
     glNormal3f(0.582, 0.5573, 0.5922);
     glVertex3f(0.003467, 0.00287, 0.01252);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(0.1706, 0.2015, 0.9645);
     glVertex3f(0.008756, 0.009965, 0.00998);
     glNormal3f(0.582, 0.5573, 0.5922);
     glVertex3f(0.003467, 0.00287, 0.01252);
     glNormal3f(0.2542, 0.1069, 0.9612);
     glVertex3f(0.012126, 0.005185, 0.009972);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(0.1706, 0.2015, 0.9645);
     glVertex3f(0.008756, 0.009965, 0.00998);
     glNormal3f(0.0925, 0.2321, 0.9683);
     glVertex3f(0.004459, 0.01243, 0.009991);
     glNormal3f(-0.0702, 0.7095, 0.7012);
     glVertex3f(-0.000813, 0.005071, 0.012258);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(0.582, 0.5573, 0.5922);
     glVertex3f(0.003467, 0.00287, 0.01252);
     glNormal3f(0.1706, 0.2015, 0.9645);
     glVertex3f(0.008756, 0.009965, 0.00998);
     glNormal3f(-0.0702, 0.7095, 0.7012);
     glVertex3f(-0.000813, 0.005071, 0.012258);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(0.0925, 0.2321, 0.9683);
     glVertex3f(0.004459, 0.01243, 0.009991);
     glNormal3f(0.0061, 0.2677, 0.9635);
     glVertex3f(0.000169, 0.013247, 0.009981);
     glNormal3f(-0.0702, 0.7095, 0.7012);
     glVertex3f(-0.000813, 0.005071, 0.012258);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(-0.0976, 0.2459, 0.9644);
     glVertex3f(-0.004537, 0.01251, 0.009985);
     glNormal3f(-0.0702, 0.7095, 0.7012);
     glVertex3f(-0.000813, 0.005071, 0.012258);
     glNormal3f(0.0061, 0.2677, 0.9635);
     glVertex3f(0.000169, 0.013247, 0.009981);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(-0.0976, 0.2459, 0.9644);
     glVertex3f(-0.004537, 0.01251, 0.009985);
     glNormal3f(-0.1875, 0.1933, 0.9631);
     glVertex3f(-0.009579, 0.009289, 0.009964);
     glNormal3f(-0.0702, 0.7095, 0.7012);
     glVertex3f(-0.000813, 0.005071, 0.012258);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(-0.7333, 0.3194, 0.6002);
     glVertex3f(-0.004461, 0.001804, 0.012465);
     glNormal3f(-0.0702, 0.7095, 0.7012);
     glVertex3f(-0.000813, 0.005071, 0.012258);
     glNormal3f(-0.1875, 0.1933, 0.9631);
     glVertex3f(-0.009579, 0.009289, 0.009964);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(-0.1875, 0.1933, 0.9631);
     glVertex3f(-0.009579, 0.009289, 0.009964);
     glNormal3f(-0.26, 0.0941, 0.961);
     glVertex3f(-0.012805, 0.004209, 0.009972);
     glNormal3f(-0.7333, 0.3194, 0.6002);
     glVertex3f(-0.004461, 0.001804, 0.012465);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(-0.2667, -0.0118, 0.9637);
     glVertex3f(-0.013424, -0.000736, 0.009991);
     glNormal3f(-0.7333, 0.3194, 0.6002);
     glVertex3f(-0.004461, 0.001804, 0.012465);
     glNormal3f(-0.26, 0.0941, 0.961);
     glVertex3f(-0.012805, 0.004209, 0.009972);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(-0.2667, -0.0118, 0.9637);
     glVertex3f(-0.013424, -0.000736, 0.009991);
     glNormal3f(-0.2466, -0.0897, 0.965);
     glVertex3f(-0.012581, -0.004751, 0.009997);
     glNormal3f(-0.7052, -0.2746, 0.6537);
     glVertex3f(-0.004714, -0.001793, 0.012282);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(-0.7333, 0.3194, 0.6002);
     glVertex3f(-0.004461, 0.001804, 0.012465);
     glNormal3f(-0.2667, -0.0118, 0.9637);
     glVertex3f(-0.013424, -0.000736, 0.009991);
     glNormal3f(-0.7052, -0.2746, 0.6537);
     glVertex3f(-0.004714, -0.001793, 0.012282);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(-0.2051, -0.1601, 0.9655);
     glVertex3f(-0.010878, -0.007915, 0.009996);
     glNormal3f(-0.1452, -0.227, 0.963);
     glVertex3f(-0.007406, -0.01125, 0.009965);
     glNormal3f(-0.1674, -0.7132, 0.6807);
     glVertex3f(-0.001454, -0.004897, 0.01236);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(-0.1674, -0.7132, 0.6807);
     glVertex3f(-0.001454, -0.004897, 0.01236);
     glNormal3f(-0.7052, -0.2746, 0.6537);
     glVertex3f(-0.004714, -0.001793, 0.012282);
     glNormal3f(-0.2051, -0.1601, 0.9655);
     glVertex3f(-0.010878, -0.007915, 0.009996);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(-0.2466, -0.0897, 0.965);
     glVertex3f(-0.012581, -0.004751, 0.009997);
     glNormal3f(-0.2051, -0.1601, 0.9655);
     glVertex3f(-0.010878, -0.007915, 0.009996);
     glNormal3f(-0.7052, -0.2746, 0.6537);
     glVertex3f(-0.004714, -0.001793, 0.012282);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(-0.6521, -0.7321, -0.1968);
     glVertex3f(-0.003817, -0.00389, 0.016773);
     glNormal3f(0.1709, -0.727, -0.665);
     glVertex3f(0.001325, -0.005754, 0.017686);
     glNormal3f(-0.2444, -0.5268, -0.8141);
     glVertex3f(-0.002146, -0.006266, 0.01816);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(0.667, -0.6796, -0.3054);
     glVertex3f(0.003349, -0.003678, 0.015668);
     glNormal3f(0.1709, -0.727, -0.665);
     glVertex3f(0.001325, -0.005754, 0.017686);
     glNormal3f(-0.1674, -0.7132, 0.6807);
     glVertex3f(-0.001454, -0.004897, 0.01236);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(-0.1674, -0.7132, 0.6807);
     glVertex3f(-0.001454, -0.004897, 0.01236);
     glNormal3f(0.5228, -0.4978, 0.692);
     glVertex3f(0.003558, -0.003228, 0.012374);
     glNormal3f(0.667, -0.6796, -0.3054);
     glVertex3f(0.003349, -0.003678, 0.015668);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(0.1709, -0.727, -0.665);
     glVertex3f(0.001325, -0.005754, 0.017686);
     glNormal3f(0.667, -0.6796, -0.3054);
     glVertex3f(0.003349, -0.003678, 0.015668);
     glNormal3f(0.5689, -0.2948, -0.7677);
     glVertex3f(0.005337, -0.00353, 0.018028);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(0.9962, 0.0801, -0.0351);
     glVertex3f(0.005049, 0.000625, 0.016499);
     glNormal3f(0.667, -0.6796, -0.3054);
     glVertex3f(0.003349, -0.003678, 0.015668);
     glNormal3f(0.5228, -0.4978, 0.692);
     glVertex3f(0.003558, -0.003228, 0.012374);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(0.9962, 0.0801, -0.0351);
     glVertex3f(0.005049, 0.000625, 0.016499);
     glNormal3f(0.5228, -0.4978, 0.692);
     glVertex3f(0.003558, -0.003228, 0.012374);
     glNormal3f(0.7302, 0.0092, 0.6832);
     glVertex3f(0.004778, 0.000189, 0.012279);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(0.582, 0.5573, 0.5922);
     glVertex3f(0.003467, 0.00287, 0.01252);
     glNormal3f(0.9962, 0.0801, -0.0351);
     glVertex3f(0.005049, 0.000625, 0.016499);
     glNormal3f(0.7302, 0.0092, 0.6832);
     glVertex3f(0.004778, 0.000189, 0.012279);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(0.9962, 0.0801, -0.0351);
     glVertex3f(0.005049, 0.000625, 0.016499);
     glNormal3f(0.582, 0.5573, 0.5922);
     glVertex3f(0.003467, 0.00287, 0.01252);
     glNormal3f(0.5755, 0.4995, -0.6476);
     glVertex3f(0.004291, 0.00384, 0.017515);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(0.582, 0.5573, 0.5922);
     glVertex3f(0.003467, 0.00287, 0.01252);
     glNormal3f(-0.0702, 0.7095, 0.7012);
     glVertex3f(-0.000813, 0.005071, 0.012258);
     glNormal3f(0.0571, 0.8378, -0.5429);
     glVertex3f(-1.4e-05, 0.005428, 0.017111);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(0.0571, 0.8378, -0.5429);
     glVertex3f(-1.4e-05, 0.005428, 0.017111);
     glNormal3f(0.5755, 0.4995, -0.6476);
     glVertex3f(0.004291, 0.00384, 0.017515);
     glNormal3f(0.582, 0.5573, 0.5922);
     glVertex3f(0.003467, 0.00287, 0.01252);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(0.0571, 0.8378, -0.5429);
     glVertex3f(-1.4e-05, 0.005428, 0.017111);
     glNormal3f(-0.0702, 0.7095, 0.7012);
     glVertex3f(-0.000813, 0.005071, 0.012258);
     glNormal3f(-0.6088, 0.4682, -0.6405);
     glVertex3f(-0.004869, 0.003601, 0.017572);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(-0.0702, 0.7095, 0.7012);
     glVertex3f(-0.000813, 0.005071, 0.012258);
     glNormal3f(-0.7333, 0.3194, 0.6002);
     glVertex3f(-0.004461, 0.001804, 0.012465);
     glNormal3f(-0.6088, 0.4682, -0.6405);
     glVertex3f(-0.004869, 0.003601, 0.017572);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(-0.7608, -0.2591, -0.595);
     glVertex3f(-0.005497, -0.001942, 0.017417);
     glNormal3f(-0.6088, 0.4682, -0.6405);
     glVertex3f(-0.004869, 0.003601, 0.017572);
     glNormal3f(-0.7333, 0.3194, 0.6002);
     glVertex3f(-0.004461, 0.001804, 0.012465);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(-0.7333, 0.3194, 0.6002);
     glVertex3f(-0.004461, 0.001804, 0.012465);
     glNormal3f(-0.7052, -0.2746, 0.6537);
     glVertex3f(-0.004714, -0.001793, 0.012282);
     glNormal3f(-0.7608, -0.2591, -0.595);
     glVertex3f(-0.005497, -0.001942, 0.017417);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(-0.6521, -0.7321, -0.1968);
     glVertex3f(-0.003817, -0.00389, 0.016773);
     glNormal3f(-0.7608, -0.2591, -0.595);
     glVertex3f(-0.005497, -0.001942, 0.017417);
     glNormal3f(-0.7052, -0.2746, 0.6537);
     glVertex3f(-0.004714, -0.001793, 0.012282);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(-0.7052, -0.2746, 0.6537);
     glVertex3f(-0.004714, -0.001793, 0.012282);
     glNormal3f(-0.1674, -0.7132, 0.6807);
     glVertex3f(-0.001454, -0.004897, 0.01236);
     glNormal3f(-0.6521, -0.7321, -0.1968);
     glVertex3f(-0.003817, -0.00389, 0.016773);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(0.1709, -0.727, -0.665);
     glVertex3f(0.001325, -0.005754, 0.017686);
     glNormal3f(-0.6521, -0.7321, -0.1968);
     glVertex3f(-0.003817, -0.00389, 0.016773);
     glNormal3f(-0.1674, -0.7132, 0.6807);
     glVertex3f(-0.001454, -0.004897, 0.01236);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(-0.2444, -0.5268, -0.8141);
     glVertex3f(-0.002146, -0.006266, 0.01816);
     glNormal3f(0.1709, -0.727, -0.665);
     glVertex3f(0.001325, -0.005754, 0.017686);
     glNormal3f(-0.1503, -0.9617, -0.2291);
     glVertex3f(-0.001738, -0.010972, 0.020895);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(0.5221, -0.8162, -0.2475);
     glVertex3f(0.00611, -0.009112, 0.02075);
     glNormal3f(-0.1503, -0.9617, -0.2291);
     glVertex3f(-0.001738, -0.010972, 0.020895);
     glNormal3f(0.1709, -0.727, -0.665);
     glVertex3f(0.001325, -0.005754, 0.017686);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(0.1709, -0.727, -0.665);
     glVertex3f(0.001325, -0.005754, 0.017686);
     glNormal3f(0.5689, -0.2948, -0.7677);
     glVertex3f(0.005337, -0.00353, 0.018028);
     glNormal3f(0.5221, -0.8162, -0.2475);
     glVertex3f(0.00611, -0.009112, 0.02075);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(0.9016, -0.3684, -0.2266);
     glVertex3f(0.009838, -0.00448, 0.020894);
     glNormal3f(0.5221, -0.8162, -0.2475);
     glVertex3f(0.00611, -0.009112, 0.02075);
     glNormal3f(0.5689, -0.2948, -0.7677);
     glVertex3f(0.005337, -0.00353, 0.018028);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(0.667, -0.6796, -0.3054);
     glVertex3f(0.003349, -0.003678, 0.015668);
     glNormal3f(0.9962, 0.0801, -0.0351);
     glVertex3f(0.005049, 0.000625, 0.016499);
     glNormal3f(0.5689, -0.2948, -0.7677);
     glVertex3f(0.005337, -0.00353, 0.018028);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(0.5755, 0.4995, -0.6476);
     glVertex3f(0.004291, 0.00384, 0.017515);
     glNormal3f(0.5689, -0.2948, -0.7677);
     glVertex3f(0.005337, -0.00353, 0.018028);
     glNormal3f(0.9962, 0.0801, -0.0351);
     glVertex3f(0.005049, 0.000625, 0.016499);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(0.5689, -0.2948, -0.7677);
     glVertex3f(0.005337, -0.00353, 0.018028);
     glNormal3f(0.5755, 0.4995, -0.6476);
     glVertex3f(0.004291, 0.00384, 0.017515);
     glNormal3f(0.9501, 0.1971, -0.2418);
     glVertex3f(0.010621, 0.002322, 0.020849);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(0.9501, 0.1971, -0.2418);
     glVertex3f(0.010621, 0.002322, 0.020849);
     glNormal3f(0.9016, -0.3684, -0.2266);
     glVertex3f(0.009838, -0.00448, 0.020894);
     glNormal3f(0.5689, -0.2948, -0.7677);
     glVertex3f(0.005337, -0.00353, 0.018028);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(0.5837, 0.7795, -0.2272);
     glVertex3f(0.006672, 0.008579, 0.020921);
     glNormal3f(0.9501, 0.1971, -0.2418);
     glVertex3f(0.010621, 0.002322, 0.020849);
     glNormal3f(0.5755, 0.4995, -0.6476);
     glVertex3f(0.004291, 0.00384, 0.017515);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(-0.111, 0.9681, -0.2245);
     glVertex3f(-0.001475, 0.011031, 0.020874);
     glNormal3f(0.5837, 0.7795, -0.2272);
     glVertex3f(0.006672, 0.008579, 0.020921);
     glNormal3f(0.5755, 0.4995, -0.6476);
     glVertex3f(0.004291, 0.00384, 0.017515);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(0.5755, 0.4995, -0.6476);
     glVertex3f(0.004291, 0.00384, 0.017515);
     glNormal3f(0.0571, 0.8378, -0.5429);
     glVertex3f(-1.4e-05, 0.005428, 0.017111);
     glNormal3f(-0.111, 0.9681, -0.2245);
     glVertex3f(-0.001475, 0.011031, 0.020874);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(0.0571, 0.8378, -0.5429);
     glVertex3f(-1.4e-05, 0.005428, 0.017111);
     glNormal3f(-0.6088, 0.4682, -0.6405);
     glVertex3f(-0.004869, 0.003601, 0.017572);
     glNormal3f(-0.7326, 0.643, -0.2233);
     glVertex3f(-0.008453, 0.006967, 0.020854);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(0.0571, 0.8378, -0.5429);
     glVertex3f(-1.4e-05, 0.005428, 0.017111);
     glNormal3f(-0.7326, 0.643, -0.2233);
     glVertex3f(-0.008453, 0.006967, 0.020854);
     glNormal3f(-0.111, 0.9681, -0.2245);
     glVertex3f(-0.001475, 0.011031, 0.020874);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(-0.9767, 0.047, -0.2095);
     glVertex3f(-0.011214, 0.000643, 0.020905);
     glNormal3f(-0.7326, 0.643, -0.2233);
     glVertex3f(-0.008453, 0.006967, 0.020854);
     glNormal3f(-0.6088, 0.4682, -0.6405);
     glVertex3f(-0.004869, 0.003601, 0.017572);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(-0.6088, 0.4682, -0.6405);
     glVertex3f(-0.004869, 0.003601, 0.017572);
     glNormal3f(-0.7608, -0.2591, -0.595);
     glVertex3f(-0.005497, -0.001942, 0.017417);
     glNormal3f(-0.9767, 0.047, -0.2095);
     glVertex3f(-0.011214, 0.000643, 0.020905);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(-0.7488, -0.6219, -0.2292);
     glVertex3f(-0.00868, -0.007021, 0.020921);
     glNormal3f(-0.9767, 0.047, -0.2095);
     glVertex3f(-0.011214, 0.000643, 0.020905);
     glNormal3f(-0.7608, -0.2591, -0.595);
     glVertex3f(-0.005497, -0.001942, 0.017417);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(-0.2444, -0.5268, -0.8141);
     glVertex3f(-0.002146, -0.006266, 0.01816);
     glNormal3f(-0.7608, -0.2591, -0.595);
     glVertex3f(-0.005497, -0.001942, 0.017417);
     glNormal3f(-0.6521, -0.7321, -0.1968);
     glVertex3f(-0.003817, -0.00389, 0.016773);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(-0.7608, -0.2591, -0.595);
     glVertex3f(-0.005497, -0.001942, 0.017417);
     glNormal3f(-0.2444, -0.5268, -0.8141);
     glVertex3f(-0.002146, -0.006266, 0.01816);
     glNormal3f(-0.1503, -0.9617, -0.2291);
     glVertex3f(-0.001738, -0.010972, 0.020895);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(-0.1503, -0.9617, -0.2291);
     glVertex3f(-0.001738, -0.010972, 0.020895);
     glNormal3f(-0.7488, -0.6219, -0.2292);
     glVertex3f(-0.00868, -0.007021, 0.020921);
     glNormal3f(-0.7608, -0.2591, -0.595);
     glVertex3f(-0.005497, -0.001942, 0.017417);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(0.0551, -0.3611, 0.9309);
     glVertex3f(0.001572, -0.008221, 0.025412);
     glNormal3f(-0.1399, -0.3877, 0.9111);
     glVertex3f(-0.003261, -0.00794, 0.025342);
     glNormal3f(-0.1503, -0.9617, -0.2291);
     glVertex3f(-0.001738, -0.010972, 0.020895);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(-0.1503, -0.9617, -0.2291);
     glVertex3f(-0.001738, -0.010972, 0.020895);
     glNormal3f(0.5221, -0.8162, -0.2475);
     glVertex3f(0.00611, -0.009112, 0.02075);
     glNormal3f(0.0551, -0.3611, 0.9309);
     glVertex3f(0.001572, -0.008221, 0.025412);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(0.3448, -0.3073, 0.887);
     glVertex3f(0.005857, -0.006221, 0.025292);
     glNormal3f(0.0551, -0.3611, 0.9309);
     glVertex3f(0.001572, -0.008221, 0.025412);
     glNormal3f(0.5221, -0.8162, -0.2475);
     glVertex3f(0.00611, -0.009112, 0.02075);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(0.5221, -0.8162, -0.2475);
     glVertex3f(0.00611, -0.009112, 0.02075);
     glNormal3f(0.9016, -0.3684, -0.2266);
     glVertex3f(0.009838, -0.00448, 0.020894);
     glNormal3f(0.3448, -0.3073, 0.887);
     glVertex3f(0.005857, -0.006221, 0.025292);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(0.3437, -0.0655, 0.9368);
     glVertex3f(0.008152, -0.001264, 0.025401);
     glNormal3f(0.3448, -0.3073, 0.887);
     glVertex3f(0.005857, -0.006221, 0.025292);
     glNormal3f(0.9016, -0.3684, -0.2266);
     glVertex3f(0.009838, -0.00448, 0.020894);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(0.9501, 0.1971, -0.2418);
     glVertex3f(0.010621, 0.002322, 0.020849);
     glNormal3f(0.3437, -0.0655, 0.9368);
     glVertex3f(0.008152, -0.001264, 0.025401);
     glNormal3f(0.9016, -0.3684, -0.2266);
     glVertex3f(0.009838, -0.00448, 0.020894);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(0.3437, -0.0655, 0.9368);
     glVertex3f(0.008152, -0.001264, 0.025401);
     glNormal3f(0.9501, 0.1971, -0.2418);
     glVertex3f(0.010621, 0.002322, 0.020849);
     glNormal3f(0.3481, 0.1942, 0.9171);
     glVertex3f(0.007252, 0.004267, 0.025353);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(0.5837, 0.7795, -0.2272);
     glVertex3f(0.006672, 0.008579, 0.020921);
     glNormal3f(0.3481, 0.1942, 0.9171);
     glVertex3f(0.007252, 0.004267, 0.025353);
     glNormal3f(0.9501, 0.1971, -0.2418);
     glVertex3f(0.010621, 0.002322, 0.020849);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(0.3481, 0.1942, 0.9171);
     glVertex3f(0.007252, 0.004267, 0.025353);
     glNormal3f(0.5837, 0.7795, -0.2272);
     glVertex3f(0.006672, 0.008579, 0.020921);
     glNormal3f(0.1305, 0.3864, 0.913);
     glVertex3f(0.003375, 0.007715, 0.025337);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(-0.111, 0.9681, -0.2245);
     glVertex3f(-0.001475, 0.011031, 0.020874);
     glNormal3f(0.1305, 0.3864, 0.913);
     glVertex3f(0.003375, 0.007715, 0.025337);
     glNormal3f(0.5837, 0.7795, -0.2272);
     glVertex3f(0.006672, 0.008579, 0.020921);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(-0.137, 0.3947, 0.9085);
     glVertex3f(-0.002514, 0.008262, 0.025291);
     glNormal3f(0.1305, 0.3864, 0.913);
     glVertex3f(0.003375, 0.007715, 0.025337);
     glNormal3f(-0.111, 0.9681, -0.2245);
     glVertex3f(-0.001475, 0.011031, 0.020874);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(-0.7326, 0.643, -0.2233);
     glVertex3f(-0.008453, 0.006967, 0.020854);
     glNormal3f(-0.137, 0.3947, 0.9085);
     glVertex3f(-0.002514, 0.008262, 0.025291);
     glNormal3f(-0.111, 0.9681, -0.2245);
     glVertex3f(-0.001475, 0.011031, 0.020874);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(-0.137, 0.3947, 0.9085);
     glVertex3f(-0.002514, 0.008262, 0.025291);
     glNormal3f(-0.7326, 0.643, -0.2233);
     glVertex3f(-0.008453, 0.006967, 0.020854);
     glNormal3f(-0.275, 0.2303, 0.9335);
     glVertex3f(-0.006714, 0.005125, 0.025392);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(-0.9767, 0.047, -0.2095);
     glVertex3f(-0.011214, 0.000643, 0.020905);
     glNormal3f(-0.275, 0.2303, 0.9335);
     glVertex3f(-0.006714, 0.005125, 0.025392);
     glNormal3f(-0.7326, 0.643, -0.2233);
     glVertex3f(-0.008453, 0.006967, 0.020854);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(-0.275, 0.2303, 0.9335);
     glVertex3f(-0.006714, 0.005125, 0.025392);
     glNormal3f(-0.9767, 0.047, -0.2095);
     glVertex3f(-0.011214, 0.000643, 0.020905);
     glNormal3f(-0.4288, 0.0108, 0.9033);
     glVertex3f(-0.008705, 0.0006, 0.025393);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(-0.9767, 0.047, -0.2095);
     glVertex3f(-0.011214, 0.000643, 0.020905);
     glNormal3f(-0.7488, -0.6219, -0.2292);
     glVertex3f(-0.00868, -0.007021, 0.020921);
     glNormal3f(-0.4288, 0.0108, 0.9033);
     glVertex3f(-0.008705, 0.0006, 0.025393);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(-0.3331, -0.1993, 0.9216);
     glVertex3f(-0.007061, -0.004906, 0.025428);
     glNormal3f(-0.4288, 0.0108, 0.9033);
     glVertex3f(-0.008705, 0.0006, 0.025393);
     glNormal3f(-0.7488, -0.6219, -0.2292);
     glVertex3f(-0.00868, -0.007021, 0.020921);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(-0.1503, -0.9617, -0.2291);
     glVertex3f(-0.001738, -0.010972, 0.020895);
     glNormal3f(-0.1399, -0.3877, 0.9111);
     glVertex3f(-0.003261, -0.00794, 0.025342);
     glNormal3f(-0.7488, -0.6219, -0.2292);
     glVertex3f(-0.00868, -0.007021, 0.020921);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(-0.1399, -0.3877, 0.9111);
     glVertex3f(-0.003261, -0.00794, 0.025342);
     glNormal3f(-0.3331, -0.1993, 0.9216);
     glVertex3f(-0.007061, -0.004906, 0.025428);
     glNormal3f(-0.7488, -0.6219, -0.2292);
     glVertex3f(-0.00868, -0.007021, 0.020921);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(-0.075, -0.3059, 0.9491);
     glVertex3f(0.001221, 0.006075, 0.024033);
     glNormal3f(-0.137, 0.3947, 0.9085);
     glVertex3f(-0.002514, 0.008262, 0.025291);
     glNormal3f(0.1663, -0.2549, 0.9526);
     glVertex3f(-0.003417, 0.00515, 0.024015);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(0.1305, 0.3864, 0.913);
     glVertex3f(0.003375, 0.007715, 0.025337);
     glNormal3f(-0.137, 0.3947, 0.9085);
     glVertex3f(-0.002514, 0.008262, 0.025291);
     glNormal3f(-0.075, -0.3059, 0.9491);
     glVertex3f(0.001221, 0.006075, 0.024033);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(-0.137, 0.3947, 0.9085);
     glVertex3f(-0.002514, 0.008262, 0.025291);
     glNormal3f(-0.275, 0.2303, 0.9335);
     glVertex3f(-0.006714, 0.005125, 0.025392);
     glNormal3f(0.1663, -0.2549, 0.9526);
     glVertex3f(-0.003417, 0.00515, 0.024015);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(-0.275, 0.2303, 0.9335);
     glVertex3f(-0.006714, 0.005125, 0.025392);
     glNormal3f(-0.4288, 0.0108, 0.9033);
     glVertex3f(-0.008705, 0.0006, 0.025393);
     glNormal3f(0.3964, 0.0859, 0.9141);
     glVertex3f(-0.006312, -0.000819, 0.024112);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(-0.1399, -0.3877, 0.9111);
     glVertex3f(-0.003261, -0.00794, 0.025342);
     glNormal3f(0.0551, -0.3611, 0.9309);
     glVertex3f(0.001572, -0.008221, 0.025412);
     glNormal3f(0.026, 0.3272, 0.9446);
     glVertex3f(-0.000626, -0.006259, 0.023995);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(-0.5147, 0.436, 0.7382);
     glVertex3f(0.003608, -0.004999, 0.024086);
     glNormal3f(0.026, 0.3272, 0.9446);
     glVertex3f(-0.000626, -0.006259, 0.023995);
     glNormal3f(0.0551, -0.3611, 0.9309);
     glVertex3f(0.001572, -0.008221, 0.025412);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(0.0551, -0.3611, 0.9309);
     glVertex3f(0.001572, -0.008221, 0.025412);
     glNormal3f(0.3448, -0.3073, 0.887);
     glVertex3f(0.005857, -0.006221, 0.025292);
     glNormal3f(-0.3166, 0.0937, 0.9439);
     glVertex3f(0.005885, -0.00176, 0.023992);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(0.0551, -0.3611, 0.9309);
     glVertex3f(0.001572, -0.008221, 0.025412);
     glNormal3f(-0.3166, 0.0937, 0.9439);
     glVertex3f(0.005885, -0.00176, 0.023992);
     glNormal3f(-0.5147, 0.436, 0.7382);
     glVertex3f(0.003608, -0.004999, 0.024086);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(0.3437, -0.0655, 0.9368);
     glVertex3f(0.008152, -0.001264, 0.025401);
     glNormal3f(-0.3166, 0.0937, 0.9439);
     glVertex3f(0.005885, -0.00176, 0.023992);
     glNormal3f(0.3448, -0.3073, 0.887);
     glVertex3f(0.005857, -0.006221, 0.025292);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(-0.2703, -0.1684, 0.9479);
     glVertex3f(0.005259, 0.003108, 0.023991);
     glNormal3f(-0.3166, 0.0937, 0.9439);
     glVertex3f(0.005885, -0.00176, 0.023992);
     glNormal3f(0.3437, -0.0655, 0.9368);
     glVertex3f(0.008152, -0.001264, 0.025401);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(0.3437, -0.0655, 0.9368);
     glVertex3f(0.008152, -0.001264, 0.025401);
     glNormal3f(0.3481, 0.1942, 0.9171);
     glVertex3f(0.007252, 0.004267, 0.025353);
     glNormal3f(-0.2703, -0.1684, 0.9479);
     glVertex3f(0.005259, 0.003108, 0.023991);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(-0.075, -0.3059, 0.9491);
     glVertex3f(0.001221, 0.006075, 0.024033);
     glNormal3f(-0.2703, -0.1684, 0.9479);
     glVertex3f(0.005259, 0.003108, 0.023991);
     glNormal3f(0.3481, 0.1942, 0.9171);
     glVertex3f(0.007252, 0.004267, 0.025353);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(0.3481, 0.1942, 0.9171);
     glVertex3f(0.007252, 0.004267, 0.025353);
     glNormal3f(0.1305, 0.3864, 0.913);
     glVertex3f(0.003375, 0.007715, 0.025337);
     glNormal3f(-0.075, -0.3059, 0.9491);
     glVertex3f(0.001221, 0.006075, 0.024033);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(0.1663, -0.2549, 0.9526);
     glVertex3f(-0.003417, 0.00515, 0.024015);
     glNormal3f(-0.275, 0.2303, 0.9335);
     glVertex3f(-0.006714, 0.005125, 0.025392);
     glNormal3f(0.4243, -0.0977, 0.9003);
     glVertex3f(-0.00587, 0.002249, 0.023946);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(0.3964, 0.0859, 0.9141);
     glVertex3f(-0.006312, -0.000819, 0.024112);
     glNormal3f(0.4243, -0.0977, 0.9003);
     glVertex3f(-0.00587, 0.002249, 0.023946);
     glNormal3f(-0.275, 0.2303, 0.9335);
     glVertex3f(-0.006714, 0.005125, 0.025392);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(0.2393, 0.2939, 0.9254);
     glVertex3f(-0.004551, -0.004383, 0.023979);
     glNormal3f(0.3964, 0.0859, 0.9141);
     glVertex3f(-0.006312, -0.000819, 0.024112);
     glNormal3f(-0.4288, 0.0108, 0.9033);
     glVertex3f(-0.008705, 0.0006, 0.025393);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(-0.4288, 0.0108, 0.9033);
     glVertex3f(-0.008705, 0.0006, 0.025393);
     glNormal3f(-0.3331, -0.1993, 0.9216);
     glVertex3f(-0.007061, -0.004906, 0.025428);
     glNormal3f(0.2393, 0.2939, 0.9254);
     glVertex3f(-0.004551, -0.004383, 0.023979);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(-0.3331, -0.1993, 0.9216);
     glVertex3f(-0.007061, -0.004906, 0.025428);
     glNormal3f(-0.1399, -0.3877, 0.9111);
     glVertex3f(-0.003261, -0.00794, 0.025342);
     glNormal3f(0.026, 0.3272, 0.9446);
     glVertex3f(-0.000626, -0.006259, 0.023995);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(0.2393, 0.2939, 0.9254);
     glVertex3f(-0.004551, -0.004383, 0.023979);
     glNormal3f(-0.3331, -0.1993, 0.9216);
     glVertex3f(-0.007061, -0.004906, 0.025428);
     glNormal3f(0.026, 0.3272, 0.9446);
     glVertex3f(-0.000626, -0.006259, 0.023995);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(-0.3166, 0.0937, 0.9439);
     glVertex3f(0.005885, -0.00176, 0.023992);
     glNormal3f(0.2393, 0.2939, 0.9254);
     glVertex3f(-0.004551, -0.004383, 0.023979);
     glNormal3f(0.026, 0.3272, 0.9446);
     glVertex3f(-0.000626, -0.006259, 0.023995);
-    glEnd();
-    glBegin(GL_TRIANGLES);
+
     glNormal3f(0.4243, -0.0977, 0.9003);
     glVertex3f(-0.00587, 0.002249, 0.023946);
     glNormal3f(0.2393, 0.2939, 0.9254);
