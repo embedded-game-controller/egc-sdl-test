@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.13)
 project (EgcSdlTest VERSION 1.0)
 
 find_package(PkgConfig REQUIRED)
-pkg_check_modules(SDL REQUIRED IMPORTED_TARGET embedded-game-controller sdl2 SDL2_ttf freetype2 opengl glu)
+pkg_check_modules(SDL REQUIRED IMPORTED_TARGET sdl2 SDL2_ttf freetype2 opengl glu)
 
 set(PROG "EgcSdlTest")
 
