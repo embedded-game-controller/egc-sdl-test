@@ -258,6 +258,18 @@ static bool animate_controller(Controller *controller, uint32_t elapsed_ms)
     return button_pressed_count(device) >= 4;
 }
 
+static void setup_models()
+{
+    controller_setup_all();
+    button_dpad_setup_all();
+    joystick_setup_all();
+    button_big_setup_all();
+    start_setup_all();
+    button_setup_all();
+    shoulder_setup_all();
+    trigger_setup_all();
+}
+
 static void device_added_cb(egc_input_device_t *device, void *userdata)
 {
     static const float colors[5][3] = {
@@ -339,7 +351,7 @@ int main(int argc, char **argv)
     static const GLfloat ambientColor[] = {0.3f, 0.3f, 0.3f, 1.0f};
     glLightModelfv(GL_LIGHT_MODEL_AMBIENT, ambientColor);
 
-
+    setup_models();
 
     egc_initialize(device_added_cb, device_removed_cb, NULL);
     egc_bt_start_scan();
