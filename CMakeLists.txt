@@ -44,6 +44,7 @@ add_executable(${PROG}
 
 target_link_libraries(${PROG} PUBLIC
     PkgConfig::SDL
+    m
 )
 
 

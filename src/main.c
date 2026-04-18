@@ -60,8 +60,22 @@ static void draw_controller(Controller *controller)
     const egc_input_device_t *device = controller->egc;
     const egc_device_description_t *desc = device->desc;
 
-    glRotatef(controller->angle_x, 0.1, 0.0, 0.0);
     glRotatef(controller->angle_y, 0.0, 1.0, 0.0);
+    if (desc->num_accelerometers > 0) {
+        egc_accelerometer_t a = device->state.gamepad.accelerometer[0];
+        float rx = (float)a.x / EGC_ACCELEROMETER_RES_PER_G;
+        float ry = (float)a.y / EGC_ACCELEROMETER_RES_PER_G;
+        float rz = (float)a.z / EGC_ACCELEROMETER_RES_PER_G;
+        float r =  sqrtf(powf(rx,2)+powf(ry,2)+powf(rz,2));
+        float sign = rz > 0 ? 1.0f : -1.0f;
+        float miu = 0.001;
+        float roll = atan2f(-ry, sign * sqrtf(rz*rz + miu * rx*rx)) * 180/M_PI;
+        float pitch = atan2f(-rx, sqrtf(ry*ry + rz*rz)) * 180/M_PI;
+        glRotatef(pitch, 0.0, 0.0, 1.0);
+        glRotatef(roll, 0.1, 0.0, 0.0);
+    } else {
+        glRotatef(controller->angle_x, 0.1, 0.0, 0.0);
+    }
     glColor3fv(controller->color);
     controller_draw_all();
 
