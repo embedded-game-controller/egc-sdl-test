@@ -126,7 +126,7 @@ static void draw_controller(Controller *controller)
             glTranslatef(0.0, 0.0, pressed_z);
         glRotatef(device->state.gamepad.axes[EGC_GAMEPAD_AXIS_LEFTX] / 1500.0f,
                   0.0f, 1.0f, 0.0f);
-        glRotatef(device->state.gamepad.axes[EGC_GAMEPAD_AXIS_LEFTY] / -1500.0f,
+        glRotatef(device->state.gamepad.axes[EGC_GAMEPAD_AXIS_LEFTY] / 1500.0f,
                   1.0f, 0.0f, 0.0f);
         joystick_draw_all();
         glPopMatrix();
@@ -138,7 +138,7 @@ static void draw_controller(Controller *controller)
             glTranslatef(0.0, 0.0, pressed_z);
         glRotatef(device->state.gamepad.axes[EGC_GAMEPAD_AXIS_RIGHTX] / 1500.0f,
                   0.0f, 1.0f, 0.0f);
-        glRotatef(device->state.gamepad.axes[EGC_GAMEPAD_AXIS_RIGHTY] / -1500.0f,
+        glRotatef(device->state.gamepad.axes[EGC_GAMEPAD_AXIS_RIGHTY] / 1500.0f,
                   1.0f, 0.0f, 0.0f);
         joystick_draw_all();
         glPopMatrix();
@@ -264,7 +264,7 @@ static bool animate_controller(Controller *controller, uint32_t elapsed_ms)
     } else if (is_pressed(device, EGC_GAMEPAD_BUTTON_DPAD_UP)) {
         movement_y = INT16_MAX;
     } else if (has_axis(device->desc, EGC_GAMEPAD_AXIS_LEFTY)) {
-        movement_y = device->state.gamepad.axes[EGC_GAMEPAD_AXIS_LEFTY];
+        movement_y = -device->state.gamepad.axes[EGC_GAMEPAD_AXIS_LEFTY];
     }
 
     controller->angle_x -= (double)elapsed_ms * movement_y / 300000.0;
