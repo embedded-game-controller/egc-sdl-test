@@ -264,7 +264,7 @@ static bool animate_controller(Controller *controller, uint32_t elapsed_ms)
     } else if (is_pressed(device, EGC_GAMEPAD_BUTTON_DPAD_UP)) {
         movement_y = INT16_MAX;
     } else if (has_axis(device->desc, EGC_GAMEPAD_AXIS_LEFTY)) {
-        movement_y = -device->state.gamepad.axes[EGC_GAMEPAD_AXIS_LEFTY];
+        movement_y = -device->state.gamepad.axes[EGC_GAMEPAD_AXIS_LEFTY] - 1;
     }
 
     controller->angle_x -= (double)elapsed_ms * movement_y / 300000.0;
